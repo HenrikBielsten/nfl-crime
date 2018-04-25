@@ -1,0 +1,57 @@
+.on {
+  height: 30vh;
+  width: 30vh;
+  background-color: #A3233D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s ease-in-out;
+  margin: 3vh;
+  opacity: 1;
+  position: absolute;
+  font-weight: bold;
+}
+
+.off {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 30vh;
+  transition: all .5s ease-in-out;
+  margin: 3vh;
+  opacity: 0;
+  position: absolute;
+}
+
+.on:hover {
+  cursor: pointer;
+  background-color: #C3233D;
+}
+
+.off:hover {
+  cursor: pointer;
+}
+
+.info {
+  height: 30vh;
+  width: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3vh;
+}
+
+.teamsWrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
